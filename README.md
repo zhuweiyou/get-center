@@ -7,7 +7,7 @@ npm install get-center
 ```
 
 ```js
-import getCenter from 'get-center'
+import { getCenter } from 'get-center'
 
 console.log(getCenter('[hello][world]', '[', ']')) // hello
 console.log(getCenter('[hello][world]', '[', ']', true)) // hello][world

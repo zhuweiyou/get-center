@@ -1,2 +1,2 @@
-function l(e="",n="",d="",f=!1){let t=e.indexOf(n)+n.length,i=e[f?"lastIndexOf":"indexOf"](d,t);return e.slice(t,i)}export{l as default};
+function c(n="",e="",d="",f=!1){let t=n.indexOf(e)+e.length,i=n[f?"lastIndexOf":"indexOf"](d,t);return n.slice(t,i)}export{c as getCenter};
 //# sourceMappingURL=index.mjs.map

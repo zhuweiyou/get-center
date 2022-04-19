@@ -1,0 +1,24 @@
+{
+  "name": "get-center",
+  "version": "1.0.0",
+  "description": "get center string",
+  "main": "./dist/get-center.umd.js",
+  "module": "./dist/get-center.module.js",
+  "exports":"./dist/get-center.modern.js",
+  "scripts": {
+    "build": "microbundle src/index.mjs"
+  },
+  "keywords": [
+    "get-center"
+  ],
+  "author": "zhuweiyou <i@zhuweiyou.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/zhuweiyou/get-center#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuweiyou/get-center.git"
+  },
+  "devDependencies": {
+    "microbundle": "^0.14.2"
+  }
+}

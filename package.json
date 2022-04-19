@@ -1,12 +1,12 @@
 {
   "name": "get-center",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "get center string",
   "main": "./dist/get-center.umd.js",
   "module": "./dist/get-center.module.js",
   "exports":"./dist/get-center.modern.js",
   "scripts": {
-    "build": "microbundle src/index.mjs"
+    "build": "microbundle src/index.ts"
   },
   "keywords": [
     "get-center"

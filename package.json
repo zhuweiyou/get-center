@@ -1,13 +1,12 @@
 {
   "name": "get-center",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "get center string",
-  "main": "./dist/get-center.umd.js",
-  "types": "./dist/index.d.ts",
-  "module": "./dist/get-center.module.js",
-  "exports":"./dist/get-center.modern.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "microbundle src/index.ts"
+    "build": "tsup"
   },
   "keywords": [
     "get-center"
@@ -20,6 +19,6 @@
     "url": "git+https://github.com/zhuweiyou/get-center.git"
   },
   "devDependencies": {
-    "microbundle": "^0.14.2"
+    "tsup": "^5.12.5"
   }
 }
